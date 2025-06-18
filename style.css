@@ -1,0 +1,33 @@
+@font-face {
+    font-family: buttermilk;
+    src: url(,/Buttermilk.woff2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container h1 {
+    position: absolute;
+    top: 50%;  /* Vertical position */
+    left: 50%; /* Horizontal position */
+    transform: translate(-50%, -50%);
+    font-family: 'Buttermilk', sans-serif;
+    font-size: 64px; /* You can adjust the size */
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
